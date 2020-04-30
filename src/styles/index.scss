@@ -1,6 +1,70 @@
-$body-color: slateblue;
+@import 'flx-helper/flx-main';
+
+$body-color: #84817a;
 
 body {
   color: $body-color;
   font-family: sans-serif;
+  padding: 24px;
+  background-color: #f7f1e3;
+  text-shadow: white 1px 1px 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Demo styles
+.container {
+  border: 2px solid #2c2c54;
+  width: 100%;
+  min-height: 132px;
+  margin-bottom: 24px;
+  padding: 8px;
+  position: relative;
+}
+
+.item {
+  width: 35px;
+  height: 35px;
+  display: block;
+
+  &--vertical {
+    margin: 0 0 8px 0;
+    background-color: #ff5252;
+    border: 1px solid #b33939;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &--horizontal {
+    margin: 0 8px 0 0;
+    background-color: #34ace0;
+    border: 1px solid #227093;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+hr {
+  border-top: 2px solid #aaa69d;
+}
+
+.row {
+  width: 100%;
+}
+
+.col {
+  padding: 24px;
+  width: 50%;
+
+  &--A {
+  }
+
+  &--B {
+  }
 }

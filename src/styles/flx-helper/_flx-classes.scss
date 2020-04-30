@@ -1,0 +1,172 @@
+@mixin setClassName($className) {
+  margin-top: 48px;
+  &::before {
+    content: $className;
+    background: #2c2c54;
+    color: white;
+    padding: 4px;
+    position: absolute;
+    top: -28px;
+    left: -2px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: #40407a 1px 1px 0;
+  }
+}
+
+.flx-row-wrap-center-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-top;
+}
+
+
+.flx-row-wrap-center-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-mid;
+}
+
+.flx-row-wrap-center-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-btm;
+}
+
+// --
+
+.flx-row-wrap-left-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-top;
+}
+
+.flx-row-wrap-left-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-mid;
+}
+
+.flx-row-wrap-left-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-btm;
+}
+
+// --
+
+.flx-row-wrap-right-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-top;
+}
+
+.flx-row-wrap-right-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-mid;
+}
+
+.flx-row-wrap-right-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-btm;
+}
+
+//---------------
+
+.flx-col-wrap-center-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-top;
+}
+
+.flx-col-wrap-center-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-mid;
+}
+
+.flx-col-wrap-center-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-btm;
+}
+
+// --
+
+.flx-col-wrap-left-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-top;
+}
+
+.flx-col-wrap-left-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-mid;
+}
+
+.flx-col-wrap-left-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-btm;
+}
+
+// --
+
+.flx-col-wrap-right-top {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-top;
+}
+
+.flx-col-wrap-right-mid {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-mid;
+}
+
+.flx-col-wrap-right-btm {
+  @include setClassName('#{&}');
+  @extend %flx-w-w;
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-btm;
+}
+
+
