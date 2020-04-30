@@ -1,0 +1,131 @@
+// ************************
+// Flex Container
+// ************************
+.flx {
+  @extend %flx-df;
+}
+
+// ************************
+// ROW Containers Presets
+// ************************
+
+.flx-row-center-top {
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-top;
+}
+
+
+.flx-row-center-mid {
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-mid;
+}
+
+.flx-row-center-btm {
+  @extend %flx-row;
+  @extend %flx-row-center;
+  @extend %flx-row-center-btm;
+}
+
+// --
+
+.flx-row-left-top {
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-top;
+}
+
+.flx-row-left-mid {
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-mid;
+}
+
+.flx-row-left-btm {
+  @extend %flx-row;
+  @extend %flx-row-left;
+  @extend %flx-row-left-btm;
+}
+
+// --
+
+.flx-row-right-top {
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-top;
+}
+
+.flx-row-right-mid {
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-mid;
+}
+
+.flx-row-right-btm {
+  @extend %flx-row;
+  @extend %flx-row-right;
+  @extend %flx-row-right-btm;
+}
+
+// ************************
+// COL Containers Presets
+// ************************
+
+.flx-col-center-top {
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-top;
+}
+
+.flx-col-center-mid {
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-mid;
+}
+
+.flx-col-center-btm {
+  @extend %flx-col;
+  @extend %flx-col-center;
+  @extend %flx-col-center-btm;
+}
+
+// --
+
+.flx-col-left-top {
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-top;
+}
+
+.flx-col-left-mid {
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-mid;
+}
+
+.flx-col-left-btm {
+  @extend %flx-col;
+  @extend %flx-col-left;
+  @extend %flx-col-left-btm;
+}
+
+// --
+
+.flx-col-right-top {
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-top;
+}
+
+.flx-col-right-mid {
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-mid;
+}
+
+.flx-col-right-btm {
+  @extend %flx-col;
+  @extend %flx-col-right;
+  @extend %flx-col-right-btm;
+}

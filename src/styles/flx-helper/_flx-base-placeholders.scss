@@ -2,15 +2,15 @@
 %flx-if { display: inline-flex }
 
 /* Flex direction */
-%flx-d-r { flex-direction: row}
-%flx-d-rr { flex-direction: row-reverse}
-%flx-d-c { flex-direction: column}
-%flx-d-cr { flex-direction: column-reverse}
+%flx-d-r { flex-direction: row }
+%flx-d-rr { flex-direction: row-reverse }
+%flx-d-c { flex-direction: column }
+%flx-d-cr { flex-direction: column-reverse }
 
 /* Flex wrap */
-%flx-w-n { flex-wrap: nowrap; } /* Default */
-%flx-w-w { flex-wrap: wrap; }
-%flx-w-r { flex-wrap: wrap-reverse; }
+%flx-w-n { flex-wrap: nowrap } /* Default */
+%flx-w-w { flex-wrap: wrap }
+%flx-w-r { flex-wrap: wrap-reverse }
 
 /* Justify content */
 %flx-j-fe { justify-content: flex-end }
@@ -27,19 +27,19 @@
 %flx-ai-b  { align-items: baseline; }
 
 /* Flex grow */
-%flx-gr-0 { flex-grow: 0; }
-%flx-gr-1  { flex-grow: 1; }
+%flx-gr-0 { flex-grow: 0 }
+%flx-gr-1  { flex-grow: 1 }
 
 /* Flex shrink */
-%flx-sh-0 { flex-shrink: 0; }
-%flx-sh-1{ flex-shrink: 1; }
+%flx-sh-0 { flex-shrink: 0 }
+%flx-sh-1{ flex-shrink: 1 }
 
 /* Flex basis */
-%flx-bs-0 { flex-shrink: 0; }
-%flx-bs-1{ flex-shrink: 1; }
+%flx-bs-a { flex-basis: auto }
+%flx-bs-0 { flex-basis: 0 }
 
 /* Align self */
-%flx-as-a  { align-self: auto; } /* Default */
+%flx-as-a  { align-self: auto; }
 %flx-as-fs { align-self: flex-start; }
 %flx-as-c { align-self: center; }
 %flx-as-fe{ align-self: flex-end; }

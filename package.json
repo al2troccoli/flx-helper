@@ -1,24 +1,23 @@
 {
   "name": "webpack-starter",
-  "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "version": "0.0.3",
+  "description": "Another css flexbox helper",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "url": "https://github.com/al2troccoli/flx-helper.git"
   },
   "keywords": [
-    "webpack",
-    "startkit",
-    "frontend",
-    "es6",
-    "javascript",
+    "flexbox",
+    "css",
+    "sass",
+    "helper",
     "webdev"
   ],
-  "author": "webkid.io",
+  "author": "Aldo Troccoli",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wbkd/webpack-starter/issues"
