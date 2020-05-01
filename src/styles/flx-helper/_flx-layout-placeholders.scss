@@ -5,17 +5,17 @@
   &-center {
     @extend %flx-j-c;
 
-    // flx-row-cen-mid
+    // flx-row-center-mid
     &-mid {
       @extend %flx-ai-c;
     }
 
-    // flx-row-cen-top
+    // flx-row-center-top
     &-top {
       @extend %flx-ai-fs;
     }
 
-    // flx-row-cen-btm
+    // flx-row-center-btm
     &-btm {
       @extend %flx-ai-fe;
     }
@@ -43,14 +43,17 @@
   &-right {
     @extend %flx-j-fe;
 
+    // flx-row-right-mid
     &-mid {
       @extend %flx-ai-c;
     }
 
+    // flx-row-right-top
     &-top {
       @extend %flx-ai-fs;
     }
 
+    // flx-row-right-btm
     &-btm {
       @extend %flx-ai-fe;
     }
